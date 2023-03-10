@@ -1,0 +1,31 @@
+.form {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 600px;
+}
+
+.box {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.samewidth {
+  width: 130px;
+}/*# sourceMappingURL=main.css.map */

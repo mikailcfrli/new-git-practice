@@ -1,0 +1,36 @@
+$flex: flex;
+$column: column;
+$center: center;
+@mixin size {
+    width: 300px;
+    height: 600px;
+}
+@mixin allflex {
+    display: $flex;
+    flex-direction: $column;
+    justify-content: $center;
+    align-items: $center;
+}
+.form {
+    border: 2px solid black;
+    @include allflex;
+    @include size;
+}
+.box {
+    padding: 20px;
+    display: $flex;
+    justify-content: space-between;
+    width: 90%;
+}
+p {
+    margin:0
+}
+body {
+    height: 100vh;
+    display: $flex;
+    justify-content: $center;
+    align-items: $center;
+}
+.samewidth {
+    width: 130px;
+}
